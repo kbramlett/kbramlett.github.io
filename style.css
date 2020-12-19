@@ -22,6 +22,7 @@ body{
 @media (max-width: 414px){
     .title{
         width: 100%;
+        margin: auto;
     }
 }
 
