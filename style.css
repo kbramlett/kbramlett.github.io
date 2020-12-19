@@ -8,11 +8,23 @@ body{
     display: flex;
     flex-direction:column;
 }
+
 .title { 
-    border: 10px ridge black;
+    width: 600px;
+    border: 10px solid black;
     border-color: black;
+    border-width: 5px;
     text-align: center;
+    margin: auto;
 }
+
+
+@media (max-width: 414px){
+    .title{
+        width: 100%;
+    }
+}
+
 .subtitle {
     text-align: left;
 }
@@ -43,12 +55,16 @@ h2 {
     }
 }
 h3 {
-    font-size: 30px;
+    font-size: 50px;
     font-style:italic;
     font-weight: 100;
-    text-align: left;
+    text-align: center;
 }
-
+@media (max-width: 414px){
+    h3{
+        font-size: 10vw;
+    }
+}
 p {
     font-weight: 200;
     text-align: left;
@@ -64,7 +80,7 @@ img {
 ul {
     list-style-type: none;
     font-family: "Courier New", monospace;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -90,4 +106,5 @@ text-decoration: none;
 /* Change the link color to #111 (black) on hover */
 li a:hover {
 background-color: #111;
+text-decoration: underline;
 }
