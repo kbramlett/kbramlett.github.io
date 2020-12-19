@@ -2,10 +2,24 @@ body{
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+.heading {
+    background-color: white;
+    padding: .5rem;
+    display: flex;
+    flex-direction:column;
+}
+.title { 
+    border: 10px ridge black;
+    border-color: black;
+    text-align: center;
+}
+.subtitle {
+    text-align: left;
+}
 h1 {
     color:black;
     font-weight: 200;
-    font-size: 100px;
+    font-size: 50px;
     font-style: bold;
     text-align: center;
     text-shadow: 5px 5px 5px gray;
@@ -20,9 +34,8 @@ h2 {
     color: black;
     font-weight: 100;
     font-size: 50px;
+    font-style:italic;
     text-align: left;
-    padding-left: 35px;
-    
 }
 @media (max-width: 414px){
     h2{
@@ -31,17 +44,15 @@ h2 {
 }
 h3 {
     font-size: 30px;
+    font-style:italic;
     font-weight: 100;
     text-align: left;
-    padding-left: 35px;
-    
 }
 
 p {
     font-weight: 200;
     text-align: left;
-    padding-left: 75px;
-    display: flex;
+    padding-left: 10px;
 }
 
 img {
@@ -64,7 +75,7 @@ ul {
 }
 
 li {
-float: left;
+    float: left;
 }
 
 li a {
