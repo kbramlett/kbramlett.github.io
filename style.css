@@ -11,6 +11,11 @@ h1 {
     text-shadow: 5px 5px 5px gray;
  
 }
+@media (max-width: 413px){
+    h1 {
+        font-size: 15vw;
+    }
+}
 h2 {
     color: black;
     font-weight: 100;
