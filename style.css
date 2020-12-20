@@ -30,6 +30,7 @@ body{
 .subtitle {
     text-align: left;
 }
+
 h1 {
     color:black;
     font-weight: 200;
@@ -79,6 +80,10 @@ img {
     padding: 30px;
     
 }
+.background {
+    background-size: 2em;
+    background-color: #333;
+}
 * {
     margin: 0;
     padding: 0;
@@ -89,6 +94,7 @@ img {
   nav {
     background: #333;
     opacity: 1;
+    width: 100%;
   }
   
   .nav-links a {
