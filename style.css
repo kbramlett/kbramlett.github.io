@@ -131,7 +131,7 @@ img {
   
   #menu-toggle, .hamburger {
     display: none;
-    color: white;
+    color: black;
   }
   
   /* Flexbox styling */
@@ -165,7 +165,7 @@ img {
     
     nav {
       padding: .5rem;
-      background: #333;
+      background: transparent;
       position: fixed;
       flex: 1;
       top: 0;
