@@ -165,7 +165,7 @@ img {
     
     nav {
       padding: .5rem;
-      background: transparent;
+      background: #333;
       position: fixed;
       flex: 1;
       top: 0;
