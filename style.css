@@ -22,7 +22,8 @@ body{
 @media (max-width: 414px){
     .title{
         width: 100%;
-        margin: auto;
+        margin-top: 35px;
+    
     }
 }
 
@@ -78,34 +79,114 @@ img {
     padding: 30px;
     
 }
-ul {
-    list-style-type: none;
-    font-family: "Courier New", monospace;
-    font-size: 18px;
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    box-shadow: 10px 10px 5px grey;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  
+  nav {
+    background: #333;
+    opacity: 1;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: .25rem
+  }
+  
+  .nav-links a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .hidden-nav {
+    display: none;
+  }
+  /*
+  main {
+    background: white;
+    text-align: justified;
+    padding: .5rem;
+  }
+  
+  h1 {
+    padding-bottom: .5rem;
+  }
+  
+  footer {
+    background: lightblue;  
+    text-align: center;
+  }
+  /*
+  /* hamburger icon is hidden on desktops */
+  
+  #menu-toggle, .hamburger {
+    display: none;
+    color: white;
+  }
+  
+  /* Flexbox styling */
+  
+  /* body {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  .nav-links {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .nav-links a {
+    flex: 1 0;
+    text-align: center;
+  }
+  
+  /* Media queries */
+  
+  @media screen and (max-width: 768px) {
+  
+    .hidden-nav {
+      display: flex;
+      align-items: center;
+      padding: .5rem;
+      height: 2.5rem;
+      background: white;
+    }
     
+    nav {
+      padding: .5rem;
+      background: #333;
+      position: fixed;
+      flex: 1;
+      top: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      flex-direction: column;
+    }
+    
+    .nav-links {
+      display: none;
+    }
+    
+    .hamburger {
+      display: flex;
+    }
+    
+    /*   when hamburger icon is checked, nav links will pop out */
+    
+    #menu-toggle:checked ~ .nav-links {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  
 
-}
-
-li {
-    float: left;
-}
-
-li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-background-color: #111;
-text-decoration: underline;
-}
+  
+  
