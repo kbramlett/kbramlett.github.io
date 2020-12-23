@@ -82,7 +82,8 @@ img {
     
 }
 .background {
-    background-color: gray;
+    background-color: #333;
+    background-size: 10px;
 }
 * {
     margin: 0;
