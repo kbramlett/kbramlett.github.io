@@ -76,8 +76,8 @@ p {
     font-weight: 200;
     color: #333;
     text-align: left;
-    padding: 5px;
     padding-left: 10px;
+    line-height: 1.5;
 }
 
 img {
