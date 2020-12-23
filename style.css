@@ -11,8 +11,11 @@ body{
 
 .title { 
     width: 600px;
-    border: 10px solid black;
+    border: 5px solid black;
     border-color: black;
+    border-left-style: none;
+    border-right-style: none;
+    background-color: rgb(47, 1, 107);
     border-width: 5px;
     text-align: center;
     margin: auto;
