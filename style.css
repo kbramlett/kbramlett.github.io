@@ -57,10 +57,11 @@ h2 {
     }
 }
 h3 {
-    font-size: 50px;
-    font-style:italic;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
     font-weight: 100;
-    text-align: center;
+    text-align: left;
 }
 @media (max-width: 414px){
     h3{
@@ -80,8 +81,10 @@ img {
     
 }
 .background {
-    background-size: 2em;
-    background-color: #333;
+    background-size: 5px;
+    background-color: transparent;
+    border-top: thin;
+    border-bottom: thin;
 }
 * {
     margin: 0;
