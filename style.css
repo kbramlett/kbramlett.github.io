@@ -102,9 +102,10 @@ img {
   }
   
   .nav-links a {
+    font-family: Helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    padding: .25rem
+    padding: .25rem;
   }
   
   .nav-links a:hover {
@@ -152,6 +153,7 @@ img {
   
   .nav-links a {
     flex: 1 0;
+    font-family: Helvetica, sans-serif;
     text-align: center;
   }
   
