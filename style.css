@@ -14,7 +14,7 @@ body{
     border: 3px solid #333;
     border-left-style: none;
     border-right-style: none;
-    background-color: rgb(183, 129, 255);
+    background-color: rgb(157, 158, 255);
     border-width: 5px;
     text-align: center;
     margin: auto;
@@ -34,7 +34,6 @@ body{
 
 h1 {
     color:white;
-    font-family: Helvetica, sans-serif;
     font-weight: 200;
     font-size: 50px;
     text-align: center;
