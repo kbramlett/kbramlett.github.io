@@ -1,6 +1,6 @@
-body{
+body {
     background-color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Helvetica, sans-serif
     
 }
 .heading {
@@ -17,6 +17,7 @@ body{
     border-right-style: none;
     background-color: rgba(214, 238, 224, 0.925);
     border-width: 5px;
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
     margin: auto;
 }
@@ -71,6 +72,14 @@ h3 {
         font-size: 10vw;
     }
 }
+ul {
+  list-style-type: square;
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+  padding-left: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 p {
     font-family: Helvetica, sans-serif;
     font-weight: 200;
@@ -79,13 +88,6 @@ p {
     line-height: 1.5;
     padding-left: 2rem;
     padding-right: 1rem;
-}
-ul {
-  list-style-type: square;
-
-}
-li {
-  display:table-column;
 }
 
 img {
