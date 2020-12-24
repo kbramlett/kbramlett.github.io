@@ -80,6 +80,13 @@ p {
     padding-left: 2rem;
     padding-right: 1rem;
 }
+ul {
+  list-style-type: square;
+
+}
+li {
+  display:table-column;
+}
 
 img {
     margin: 0px 300px 0px 75px;
