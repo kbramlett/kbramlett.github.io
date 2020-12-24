@@ -76,7 +76,8 @@ ul {
   list-style-type: square;
   font-family: Helvetica, sans-serif;
   font-style: normal;
-  padding-left: 4rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -220,9 +221,8 @@ p {
   }
   @media (max-width: 414px){
     .img-container{
-      justify-content: center;
-      padding-left: 0rem;
-      padding-right: 0rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
     }
   
 
