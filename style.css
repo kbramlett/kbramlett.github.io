@@ -62,8 +62,8 @@ h3 {
   font-size: 40px;
   color: #333;
   font-family: Helvetica, sans-serif;
-  font-style: italic;
-  padding-left: 2rem;
+  opacity: .8;
+  padding-left: 1rem;
   padding-right: 1rem;
   font-weight: 100;
   text-align: left;
@@ -78,7 +78,7 @@ ul {
 list-style-type: square;
 font-family: Helvetica, sans-serif;
 font-style: normal;
-padding-left: 3rem;
+padding-left: 2rem;
 padding-right: 2rem;
 padding-top: 2rem;
 padding-bottom: 2rem;
@@ -89,15 +89,14 @@ p {
   color: #333;
   text-align: left;
   line-height: 1.5;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-right: 1rem;
-  padding-bottom: 10px;
-  padding-top: 10px;
+
 }
 
 .img-container {
   justify-content: center;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-right: 2rem;
 }
 .responsive {
@@ -110,10 +109,23 @@ width: 100%;
 height: 3px;
 padding-top: 5px;
 padding-bottom: 5px;
+opacity: .5;
 background-color: #333;
 }
+.bottom-background {
+width: 100%;
+height: 3px;
+margin-top:20px;
+padding-bottom: 100px;
+color:rgb(29, 16, 1);
+font-size: 15px;
+background-color: rgb(135, 132, 132);
+}
+span{
+  padding-left: 1rem;
+}
 .vidthumb {
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 * {
@@ -227,7 +239,7 @@ footer {
 }
 @media (max-width: 414px){
   .img-container{
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-right: 2rem;
   }
 }
