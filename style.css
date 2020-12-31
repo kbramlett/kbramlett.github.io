@@ -33,16 +33,16 @@ a {
   }
 }
 
-.subtitle {
-  text-align: left;
-}
-
 h1 {
   color:#333;
   font-weight: 200;
   font-size: 50px;
   text-align: center;
   
+}
+.subtitle {
+  font-size: 45px;
+  text-align: left;
 }
 @media (max-width: 414px){
   h1{
@@ -55,6 +55,7 @@ h2 {
   font-size: 50px;
   font-style:italic;
   text-align: left;
+  padding-left: 10rem;
 }
 @media (max-width: 414px){
   h2{
@@ -248,13 +249,20 @@ footer {
   p{
     padding-left: 1rem;
     padding-right: 2rem;
-    }
+    } 
 }
+
+@media (max-width: 414px){
+  h2{
+    padding-left: 1rem;
+    padding-right: 2rem;
+    }
 
 @media (max-width: 414px){
   .img{
     padding-left: 1rem;
     padding-right: 2rem;
+    }
   }
 @media (max-width: 414px){
   p{
@@ -264,7 +272,8 @@ footer {
   }
   @media (max-width: 414px){
   .vidthumb {
-    padding-left: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     padding-top: .5rem;
     }
   }
