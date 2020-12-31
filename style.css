@@ -263,7 +263,11 @@ footer {
     padding-right: 2rem;
     }
   }
-
+  @media (max-width: 736px){
+    h3{
+      padding-left: 1rem;
+      padding-right: 2rem;
+      }
 @media (max-width: 414px){
   h2{
     padding-left: 1rem;
