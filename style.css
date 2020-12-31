@@ -55,7 +55,7 @@ h2 {
   font-size: 50px;
   font-style:italic;
   text-align: left;
-  padding-left: 10rem;
+  padding-left: 15rem;
 }
 @media (max-width: 414px){
   h2{
@@ -67,7 +67,7 @@ h3 {
   color: #333;
   font-family: Helvetica, sans-serif;
   opacity: .8;
-  padding-left: 10rem;
+  padding-left: 15rem;
   padding-right: 1rem;
   font-weight: 100;
   text-align: left;
@@ -82,7 +82,7 @@ ul {
 list-style-type: square;
 font-family: Helvetica, sans-serif;
 font-style: normal;
-padding-left: 15rem;
+padding-left: 20rem;
 padding-right: 15rem;
 padding-top: 2rem;
 padding-bottom: 2rem;
@@ -93,7 +93,7 @@ p {
   color: #333;
   text-align: left;
   line-height: 1.5;
-  padding-left: 10rem;
+  padding-left: 15rem;
   padding-right: 15rem;
   padding-top: .25rem;
   padding-bottom: .25rem;
@@ -101,7 +101,7 @@ p {
 
 .img {
   justify-content: center;
-  padding-left: 10rem;
+  padding-left: 15rem;
   padding-right: 10rem;
   padding-top: .5rem;
 
@@ -137,7 +137,7 @@ span{
   padding-left: 1rem;
 }
 .vidthumb {
-  padding-left: 10rem;
+  padding-left: 15rem;
   padding-top: .5rem;
 }
 
