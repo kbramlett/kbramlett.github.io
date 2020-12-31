@@ -268,6 +268,14 @@ footer {
       padding-left: 1rem;
       padding-right: 2rem;
       }
+    }
+    @media (max-width: 736px){
+      .vidthumb {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        }
+      }
 @media (max-width: 414px){
   h2{
     padding-left: 1rem;
@@ -277,7 +285,7 @@ footer {
 @media (max-width: 414px){
   .img{
     padding-left: 1rem;
-    padding-right: 2rem;
+    padding-right: 1rem;
     }
   }
 @media (max-width: 414px){
@@ -288,8 +296,8 @@ footer {
   }
   @media (max-width: 414px){
   .vidthumb {
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-top: .5rem;
     }
   }
