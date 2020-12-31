@@ -119,6 +119,11 @@ padding-bottom: 5px;
 opacity: .5;
 background-color: #333;
 }
+.divider {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+}
 .bottom-background {
 width: 100%;
 height: 3px;
