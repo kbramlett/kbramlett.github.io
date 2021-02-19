@@ -79,6 +79,7 @@ h1 {
     padding-left: 15rem;
   }
 }
+
 @media (max-width: 414px){
   h1{
       font-size: 10vw;
@@ -293,7 +294,7 @@ footer {
   }
 }
 @media (max-width: 1315px){
-  p{
+  p {
     padding-left: 1rem;
     padding-right: 2rem;
     } 
@@ -306,14 +307,14 @@ footer {
   }
 }
 @media (max-width: 1315px){
-  .img, .vidthumb {
+  .img, .vidthumb, .subtitle {
     padding-left: 1rem;
     padding-right: 2rem;
     }
-    
   }
 
-  }
+
+  
   @media (max-width: 736px){
     h2{
       padding-left: 1rem;
