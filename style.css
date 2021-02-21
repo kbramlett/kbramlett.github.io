@@ -103,6 +103,7 @@ h3 {
   color: #333;
   font-family: Helvetica, sans-serif;
   opacity: .8;
+  padding-top: 1rem;
   padding-left: 15rem;
   padding-right: 1rem;
   font-weight: 100;
@@ -294,10 +295,15 @@ footer {
   }
 }
 @media (max-width: 1315px){
-  p {
+  p, h3 {
     padding-left: 1rem;
     padding-right: 2rem;
     } 
+
+    ul {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
 
 }
 @media (max-width: 736px){
@@ -307,12 +313,19 @@ footer {
   }
 }
 @media (max-width: 1315px){
-  .img, .vidthumb, .subtitle {
+  .vidthumb, .subtitle {
     padding-left: 1rem;
     padding-right: 2rem;
     }
   }
-
+@media (max-width: 1315px) {
+  .img {
+    width: 100%;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+}
 
   
   @media (max-width: 736px){
@@ -323,6 +336,7 @@ footer {
     }
   @media (max-width: 736px){
     h3{
+      padding-top: 1rem;
       padding-left: 1rem;
       padding-right: 2rem;
       }
@@ -342,8 +356,9 @@ footer {
   }
 @media (max-width: 414px){
   .img{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    width: 100%;
+    height: auto;
+    
     }
   }
 @media (max-width: 414px){
@@ -366,6 +381,7 @@ footer {
   }
   @media (max-width: 414px){
     h3{
+      padding-top: 1rem;
       padding-left: 1rem;
       padding-right: 2rem;
       }
@@ -376,4 +392,3 @@ footer {
       padding-right: 2rem;
     }
   }
-}
