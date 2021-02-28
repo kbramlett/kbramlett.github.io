@@ -3,8 +3,15 @@
     width: 100%;
     top: 0;
     left: 0;
-    width: auto;
-    background-color: white;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    
+    
+}
+
+a {
+    padding: 1rem;
     
 }
 
@@ -20,7 +27,7 @@
     
 }
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Krona One", sans-serif;
     background-color:lightgrey;
     
 }
@@ -36,36 +43,76 @@ h2 {
     font-family: ;
 }
 #projects {
-    background-color:cadetblue
+    background-color:cadetblue;
+    text-align: center;
     
     
 }
+
 .project-tile {
     background-color: lightskyblue;
     margin: 1rem;
     padding-bottom: 1rem;
+    text-align: center;
    
+}
+.project-tile a {
+
+    padding-left: 2rem;
+    padding-right: .5rem;
 }
 
 #bio {
-    background-color:cadetblue
+    background-color:cadetblue;
+    text-align: center;
+    
 }
 #about {
     background-color: lightskyblue;
     margin: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
     
 }
+#about a {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 #collaborate {
-    background-color:cadetblue
+    background-color:cadetblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 #collab {
     background-color: lightskyblue;
     margin: 1rem;
+    
+    
 }
+#collab a {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
 @media (max-width: 415px){
 img {
     max-width: 50%;
     height: auto;
+    padding-top: 7rem;
 }
-
+a {
+    font-size: 3vw;
+}
 }
