@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey-form-project/style.css" />
+    
+</head>
+
+<body>
+<div id="main">
+     <h1 id="title">Survey Form</h1>
+     <h2 id="subtitle">Cool Kid Factor Evaluation</h2>
+     <p id="description">This is a sample survey form.</p>
+     
+     <form id="survey-form">
+         <label id="name-label">
+         <p>Enter your name:</p>
+         <input id="name" type="text" placeholder="Enter name here" required>
+        </label>
+        <label id="email-label">
+        <p>Enter your email address:</p>
+        <input id="email" type="email" placeholder="Enter email here" required>
+        </label>
+        <label id="number-label">
+        <p>Enter your age:</p>
+        <input id="number" type="number" placeholder="Enter your age here" min="13" max="25"required>
+        </label>
+        <p>Choose your favorite day of the week:</p>
+        <label><p>Select day from list:</p></label>
+        <select id="dropdown">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select>
+        <p>Are you an early bird or a night owl?</p>
+        <label for="early bird">
+            <input id="early bird" type="radio" name="early bird-night owl" value="early bird"> Early Bird
+        </label>
+        <label for="night owl">
+            <input id="night owl" type="radio" name="early bird-night owl" value="night owl"> Night Owl
+        </label>
+        <p>What are your top three favorite snacks? (Choose three):</p>
+        <label for="chips"><input id="chips" type="checkbox" name="favorite snacks" value="chips"> Chips
+        </label>
+        <label for="pizza"><input id="pizza" type="checkbox" name="favorite snacks" value="pizza"> Pizza
+        </label>
+        <label for="ice cream"><input id="ice cream" type="checkbox" name="favorite snacks" value="ice cream"> Ice Cream 
+        </label>
+        <label for="candy"><input id="candy" type="checkbox" name="favorite snacks" value="candy"> Candy 
+        </label>
+        <label for="kale"><input id="kale" type="checkbox" name="favorite snacks" value="kale"> Kale 
+        </label>
+        <p>Write a brief paragraph explaining what makes you a cool kid.</p>
+        <textarea name="explanation" rows="30" cols="50"></textarea>
+        <button id="submit" type="submit">Submit</button>
+     </form>
+     </div>
+     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+     </body>
+</div>

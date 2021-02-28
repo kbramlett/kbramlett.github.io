@@ -1,0 +1,63 @@
+#nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: auto;
+}
+
+body {
+    background-color: lightgray;
+    background-image: linear-gradient(
+        45deg,
+        white, lightgray
+    );
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.dept-image {
+    width: 25vw;
+}
+
+.shop-desc {
+    width: 75vw;
+}
+
+
+
+.vidthumb {
+        
+    padding-right: 1rem;
+    padding-top: .5rem;
+    width: 100%;
+    height: 100%;
+    }
+
+@media (max-width: 1315px){
+    .box-container {
+      flex-direction: column;
+      
+    }
+    .dept-img, .shop-desc {
+        width: 100vw;
+      }    
+    }
+
+@media (max-width: 415px){
+    #nav-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: auto;
+    }
+    p {
+        padding-right: 2rem;
+    }
+}

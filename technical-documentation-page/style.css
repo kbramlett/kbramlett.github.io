@@ -1,0 +1,25 @@
+#navbar {
+    width: 160px;
+    float: left;
+    position: fixed;
+    background-color: darkseagreen;
+    
+
+}
+
+main {
+    margin-left: 15%;
+    padding-right: 10%;
+}
+
+@media (max-width: 415px){
+    #navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: auto;
+    }
+    main {
+        margin-top: 30%;
+    }
+}

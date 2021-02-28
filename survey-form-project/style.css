@@ -1,0 +1,35 @@
+#main {
+    background-color: cadetblue;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+#title {
+    text-align: center;
+    color:floralwhite;
+    font-family: fantasy;
+}
+#subtitle {
+    text-align: center;
+    color:floralwhite;
+    font-family: fantasy;
+}
+p {
+    padding-left: 3rem;
+}
+input {
+    margin-left: 3rem;
+}
+#label {
+    margin-left: 3rem;
+}
+#dropdown {
+    margin-left: 3rem;
+}
+textarea {
+    margin-left: 3rem;
+}
+button {
+    margin-bottom: 5rem;
+}
+
+
