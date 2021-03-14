@@ -40,7 +40,7 @@ a {
 }
 h1 {
     color:tan;
-
+    font-size: 30px;
 }
 h2 {
     font-family: "Krona One", sans-serif;
@@ -167,6 +167,9 @@ p {
         width: 75vw;
         font-size: 3.5vw;
         padding: .25rem;
+    }
+    #welcome-section {
+        height: 80vh;
     }
     h2 {
         font-size: 7vw;
