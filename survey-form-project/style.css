@@ -73,7 +73,7 @@ button {
     #snacks, #bird-owl {
         padding-left: 22rem;
     }
-    textarea, #dropdown, #name, #email, #number {
+    textarea, #dropdown, #name, #email, #number, #submit {
         margin-left: 20rem;
     }
     }
