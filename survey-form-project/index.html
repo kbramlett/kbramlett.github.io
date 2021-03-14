@@ -40,26 +40,36 @@
             <option value="Sunday">Sunday</option>
         </select>
         <p>Are you an early bird or a night owl?</p>
+        <div id="bird-owl">
         <label for="early bird">
-            <input id="early bird" type="radio" name="early bird-night owl" value="early bird"> Early Bird
+            <input id="early-bird" type="radio" name="early bird-night owl" value="early bird"> Early Bird
         </label>
         <label for="night owl">
-            <input id="night owl" type="radio" name="early bird-night owl" value="night owl"> Night Owl
+            <input id="night-owl" type="radio" name="early bird-night owl" value="night owl"> Night Owl
         </label>
+        </div>
         <p>What are your top three favorite snacks? (Choose three):</p>
+        <div id="snacks">
+        
         <label for="chips"><input id="chips" type="checkbox" name="favorite snacks" value="chips"> Chips
         </label>
+        
         <label for="pizza"><input id="pizza" type="checkbox" name="favorite snacks" value="pizza"> Pizza
         </label>
+        
         <label for="ice cream"><input id="ice cream" type="checkbox" name="favorite snacks" value="ice cream"> Ice Cream 
         </label>
+        
         <label for="candy"><input id="candy" type="checkbox" name="favorite snacks" value="candy"> Candy 
         </label>
+        
         <label for="kale"><input id="kale" type="checkbox" name="favorite snacks" value="kale"> Kale 
         </label>
+        
+        </div>
         <p>Write a brief paragraph explaining what makes you a cool kid.</p>
-        <textarea name="explanation" rows="30" cols="50"></textarea>
-        <button id="submit" type="submit">Submit</button>
+        <textarea name="explanation" rows="15" cols="35"></textarea>
+        <br><button id="submit" type="submit">Submit</button></br>
      </form>
      </div>
      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
