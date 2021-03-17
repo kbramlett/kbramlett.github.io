@@ -1,7 +1,7 @@
 #main {
-    background-color: rgb(36, 76, 77);
-    background-color: rgb(36, 76, 77); /* For browsers that do not support gradients */
-    background-image: radial-gradient(circle, rgb(36, 76, 77), rgb(72, 70, 70));
+    background-color: rgb(58, 120, 121);
+    background-color: rgb(58, 120, 121); /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, rgb(58, 120, 121), rgb(72, 70, 70));
     font-family: Arial, Helvetica, sans-serif;
 }
 
