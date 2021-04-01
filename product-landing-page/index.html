@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="/product-landing-page/style.css" />
     
+    <link rel="stylesheet" href="/product-landing-page/style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet"> 
 </head>
 
 <header id="header">
@@ -55,20 +58,28 @@
 </div>
 
     <h2 id="signup">Sign Up for the Newsletter</h2>
+    <div class="signup">
     <p>Stay informed about new products, special deals, and helpful coffee preparation tips! Sign up below by submitting your email address.</p>
     <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
         <input id="email" name="email" type="email" placeholder="Enter email here">
-        <input id="submit" type="submit"></input>
+        <input id="submit" type="submit" value="Submit"></input>
     </form>
+</div>
 <div class="box-container">
     <div class="dept-img">
         <div class="vidthumb">
-    <iframe title="video of coffee roasting in a cast-iron pot" id="video" src="https://www.youtube.com/embed/My6jggQ612E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+            <iframe title="video of coffee roasting in a cast-iron pot" id="video" src="https://www.youtube.com/embed/My6jggQ612E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
     </div>
     <div class="shop-desc">
-    <caption class="capt">Watch this video of coffee beans roasting</caption>
+    <caption class="capt"><p>Watch this video of coffee beans roasting</p></caption>
+    </div>    
+        
     </div>
+    
 </div>
+<footer>
+    <p>Enlightenment Coffee Co.&copy2021</p>
+</footer>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
