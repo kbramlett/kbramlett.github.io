@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VitaSpree - Create New Post</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon-16x16.png">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+          <!-- bootstrap script -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+          <!-- CSS Stylesheets -->
+         <link rel="stylesheet" href="styles.css">
+       
+         <!-- Google fonts -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet"> 
+    </head> 
+<body>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                
+              <a class="navbar-brand" href="index.html"><img class="icon-img" src="images/small-noun-beet-461120-D30F4D.png">VitaSpree
+                
+              </a> 
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="profile_home.html">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="create_post.html">Create Post</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- End Nav Bar -->
+    <div class="container create-post-margin">
+        <div class="row gutters-sm create-post">
+            <div class="col-sm-4 mb-3">
+              <div class="card h-100">
+                <div class="card-body spree-stats">
+                  <h6 class="d-flex align-items-center mb-3 manage-data">Upload Image</h6>
+                  <input type="file" accept="image/*" onchange="loadFile(event)">
+
+                    <p><img id="output" class="upload-image-display" width="200"/></p>
+
+                
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="col-sm-4 mb-3">
+            <div class="card h-100">
+              <div class="card-body spree-stats">
+                <h6 class="d-flex align-items-center mb-3 manage-data">Select Colors</h6>
+                <p><em>Select up to 9 colors</em></p>
+            <div class="row gutters-sm">
+                <div class="col-sm-3 col-md-4 mb-3">
+                    <label for="exampleColorInput" class="form-label"></label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput1" value="#FFFFFF" title="Choose your color">
+                </div>
+                <div class="col-sm-3 col-md-4 mb-3">
+                    <label for="exampleColorInput" class="form-label"></label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput2" value="#FFFFFF" title="Choose your color">
+                </div>
+                <div class="col-sm-3 col-md-4 mb-3">
+                    <label for="exampleColorInput" class="form-label"></label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput3" value="#FFFFFF" title="Choose your color">
+                </div>
+                <div class="col-sm-3 col-md-4 mb-3">
+                    <label for="exampleColorInput" class="form-label"></label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput4" value="#FFFFFF" title="Choose your color">
+                </div>
+
+                <div class="col-sm-3 col-md-4 mb-3">
+                    <label for="exampleColorInput" class="form-label"></label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput5" value="#FFFFFF" title="Choose your color">
+                </div>
+                <div class="col-sm-3 col-md-4 mb-3">
+                    <label for="exampleColorInput" class="form-label"></label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput6" value="#FFFFFF" title="Choose your color">
+                </div>
+                <div class="col-sm-3 col-md-4 mb-3">
+                    <label for="exampleColorInput" class="form-label"></label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput7" value="#FFFFFF" title="Choose your color">
+                </div>
+                <div class="col-sm-3 col-md-4 mb-3">
+                    <label for="exampleColorInput" class="form-label"></label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput8" value="#FFFFFF" title="Choose your color">
+                </div>
+                <div class="col-sm-3 col-md-4 mb-3">
+                    <label for="exampleColorInput" class="form-label"></label>
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput9" value="#FFFFFF" title="Choose your color">
+                </div>
+            
+                </div>
+               </div>
+              </div>
+            </div>
+          
+          
+          <div class="col-sm-4 mb-3">
+            <div class="card h-100">
+              <div class="card-body spree-stats">
+                <h6 class="d-flex align-items-center mb-3 manage-data">Notes & Links</h6>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"><p><em>Add information: recipes, links, etc.</em></p></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                </div>
+                </div>
+            </div>        
+    </div>
+    <div class="d-grid gap-2 col-4 mx-auto">
+        <button class="btn btn-primary" type="button">Post</button>
+
+      </div>
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="script.js"></script>
+    
+</body>
+</html> 
